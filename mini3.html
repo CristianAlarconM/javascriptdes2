@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/estilo2.css">
+        <title>Mini 3</title>
+    </head>
+
+    <body>
+        <h3>ENCUENTRA LAS CONTRASEÑAS</h3>
+        <img id="cryptex" src="assets/img/Cryptex.webp" alt="">
+        <br><br>
+        <div class="opciones"><select id="select1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            <select id="select2">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select>
+            <select id="select3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+
+            </select>
+        </div>
+
+
+        <div class="boton"><button onclick="
+        pass1=document.querySelector('#p1')
+        pass2=document.querySelector('#p2')
+
+        valor1=document.querySelector('#select1').value
+        valor2=document.querySelector('#select2').value
+        valor3=document.querySelector('#select3').value
+        
+        contrasena1=valor1+valor2+valor3
+        if(contrasena1==911){
+            pass1.innerHTML='Contraseña Correcta'
+        }
+        else if(contrasena1==714){
+            pass2.innerHTML='Contraseña Correcta'
+        }
+
+        else{
+            alert('Contraseña incorrecta :(')
+        }
+
+        
+        ">VERIFICAR CODIGO</button>
+            <p>Contraseña 1: <span id="p1"></span></p>
+            <p>Contraseña 2: <span id="p2"></span></p>
+        </div>
+
+    </body>
+
+</html>

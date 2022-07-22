@@ -1,0 +1,62 @@
+@import url('http://fonts.cdnfonts.com/css/ninja-naruto');
+
+h1 {
+
+    text-align: center;
+    font-family: 'Ninja Naruto',
+        sans-serif;
+}
+
+.stickers {
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stick1 {
+    flex-direction: column;
+}
+
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    border: 2px black solid;
+
+}
+
+input {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    border-radius: 8%;
+}
+
+#cantidad {
+    font-family: 'Ninja Naruto',
+        sans-serif;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#seleccion {
+    font-family: 'Ninja Naruto',
+        sans-serif;
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orangered;
+}
